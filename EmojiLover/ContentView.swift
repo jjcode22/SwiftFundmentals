@@ -16,7 +16,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-            Text("Choose your emoji").font(.system(size: 40)).fontWeight(.bold)
+            Text("Select your emoji").font(.system(size: 40)).fontWeight(.bold)
             Text(selection.rawValue).font(.system(size: 150))
             
             Picker("Select Emoji", selection: $selection){
